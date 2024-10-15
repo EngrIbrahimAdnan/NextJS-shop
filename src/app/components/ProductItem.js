@@ -1,7 +1,7 @@
-import Image from "next/image";
+import React from "react";
 import objectArr from "./products.js";
 
-export default function Home() {
+function FirstComponent() {
   const Title = "Socks without Partners";
   const slogan =
     "A store that only sells single socks. Perfect for people who always lose one sock from the pair";
@@ -28,3 +28,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default FirstComponent;
