@@ -1,6 +1,5 @@
-import React from "react";
-import FirstComponent from "./components/ProductItem";
+import DisplayEverything from "./components/ProductItem";
 
 export default function Home() {
-  return <FirstComponent />;
+  return <DisplayEverything ProductNum={0} />;
 }
