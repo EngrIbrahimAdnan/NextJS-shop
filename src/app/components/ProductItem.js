@@ -1,5 +1,5 @@
 import React from "react";
-import objectArr from "./products.js";
+import objectArr from "../products";
 
 function FirstComponent() {
   const Title = "Socks without Partners";
@@ -15,7 +15,6 @@ function FirstComponent() {
       </div>
     );
   });
-
   return (
     <div className="text-center p-4">
       <h1 className="font-bold p-4 text-3xl">{Title}</h1>
